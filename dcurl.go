@@ -10,7 +10,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "dcurl"
 	app.Version = Version
-	app.Usage = ""
+	app.Usage = "Depleted curl like command line tool"
 	app.Author = "Daisuke Miyamoto"
 	app.Email = "dai.0304@gmail.com"
 	app.Commands = Commands
